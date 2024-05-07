@@ -1,0 +1,241 @@
+.header-section {
+    background: linear-gradient(to right, #22568a, #06a871) !important;
+    color: #e2e2e2;
+}
+
+
+.btn-register {
+    background: linear-gradient(to right, #22568a, #06a871) !important;
+    border: none;
+    border-radius: 25px;
+    padding: 3px 16px;
+    color: #e2e2e2;
+}
+
+.logo {
+    padding-right: 40px;
+    padding: 15px;
+    border: none;
+    border-radius: 0px 50px 50px 0px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.logo-text .text-one {
+    color: #06a871;
+}
+
+.logo-text .text-two {
+    color: #22568a;
+}
+
+.banner {
+    margin-left: -11px !important;
+    background-image: url('/images/banner.png');
+    width: 95%;
+    height: 450px;
+    background-size: cover;
+    background-position: center;
+    padding-left: 70px !important;
+}
+
+.button-primary {
+    background-color: #06a871;
+    border-radius: 25px;
+    width: 25%;
+    padding: 14px;
+    color: white;
+}
+
+.banner-head {
+    border-left: 1px solid #e2e2e2;
+    color: white;
+    line-height: 0.7;
+    margin-left: -20px !important;
+
+}
+
+.banner-head .public {
+    font-size: 90px !important;
+}
+
+.banner-head .future {
+    font-size: 90px !important;
+}
+
+.banner-head .theme-content {
+    background-color: #06a871;
+    width: 92%;
+    border-radius: 0px 25px 25px 0px;
+}
+
+.banner-head .theme-content p {
+    color: white;
+    font-size: 33px;
+    padding: 15px;
+}
+
+.banner-head .address .date {
+    font-size: 30px;
+}
+
+.banner-head .address .date i {
+    color: #06a871;
+}
+
+.banner-head .address .location {
+    font-size: 30px;
+}
+
+.banner-head .address .location i {
+    color: #06a871;
+}
+
+.button-section {
+    width: 85% !important;
+    margin-top: -15px;
+}
+
+.about-section {
+    background-image: url('/images/about-back.png');
+    width: 100%;
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.about-head {
+    font-size: 40px;
+    font-weight: bold;
+    background-image: linear-gradient(to right, #22568a, #06a871);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+.about-content p {
+    font-size: 24px;
+    color: #22568a;
+}
+
+.about-content p a {
+    text-decoration: none;
+    color: #06a871;
+}
+
+.about {
+    position: relative;
+}
+
+.comm1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 60px;
+}
+
+.comm2 {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 60px;
+}
+
+.choose-content p {
+    font-size: 24px;
+}
+
+.chooseus .content {
+    background-color: #06a871;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 25px;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.abstract {
+    background-color: #def5ec;
+}
+
+.abstract .content {
+    position: relative;
+}
+
+.abstract .sqline {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 230px;
+}
+
+.abstract .card-info p {
+    font-size: 24px;
+    background-color: white;
+    border-radius: 20px;
+    position: relative;
+    padding: 10px;
+    margin-top: 30px;
+    border: 1px solid #22568a;
+
+}
+
+.scientific {
+    background-image: url('/images/back2.png');
+    width: 100%;
+    /* height: 400px; */
+    background-size: cover;
+    background-position: center;
+}
+
+.scientific .subhead p {
+    font-size: 20px;
+    width: 90%;
+}
+
+
+
+.subcard {
+    margin-bottom: 10px;
+    border-left: 4px solid #22568a;
+}
+
+.subcard p {
+    cursor: pointer;
+    font-size: 20px;
+    background: linear-gradient(to right, #bfe8d8, #e2e2e2);
+    border-radius: 25px;
+    padding: 10px;
+    color: #22568a;
+    font-weight: 700;
+    margin: 0;
+}
+
+.subcard p:hover {
+    background: linear-gradient(to right, #22568a, #06a871);
+    color: white;
+}
+.subcard-content{
+    border-left: 4px solid #06a871;
+}
+.subcard-content{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    border-radius: 0px 25px 25px 0px;
+    margin-bottom: 10px;
+}
+.subcard-content .head{
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 25px;
+    padding: 10px;
+    color: #22568a;
+    font-weight: 700;
+    margin: 0;
+}
+.subcard .card-content p{
+    font-size: 16px;
+    color: black;
+}
