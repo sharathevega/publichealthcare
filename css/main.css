@@ -8,9 +8,31 @@
     background: linear-gradient(to right, #22568a, #06a871) !important;
     border: none;
     border-radius: 25px;
-    padding: 3px 16px;
+    padding: 5px 18px;
     color: #e2e2e2;
 }
+
+.btn-view {
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    padding: 4px 18px;
+    background-color: white;
+}
+
+.btn-view p {
+    margin: 0;
+    background-image: linear-gradient(to right, #22568a, #06a871);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+    text-fill-color: transparent;
+}
+
+
 
 .logo {
     padding-right: 40px;
@@ -32,7 +54,7 @@
     margin-left: -11px !important;
     background-image: url('/images/banner.png');
     width: 98%;
-    height: 450px;
+    height: 480px;
     background-size: cover;
     background-position: center;
     padding-left: 70px !important;
@@ -56,7 +78,8 @@
 
 .banner-head .public {
     font-size: 98px !important;
-    
+    font-weight: 700;
+
 }
 
 .banner-head .future {
@@ -65,7 +88,7 @@
 
 .banner-head .theme-content {
     background-color: #06a871;
-    width: 92%;
+    width: 96%;
     border-radius: 0px 25px 25px 0px;
 }
 
@@ -92,14 +115,14 @@
 }
 
 .button-section {
-    width: 85% !important;
+    width: 95% !important;
     margin-top: -15px;
 }
 
 .about-section {
     background-image: url('/images/about-back.png');
     width: 100%;
-    height: 400px;
+    height: 330px;
     background-size: cover;
     background-position: center;
     position: relative;
@@ -107,7 +130,7 @@
 
 .about-head {
     font-size: 40px;
-    font-weight: bold;
+    font-weight: 700 !important;
     background-image: linear-gradient(to right, #22568a, #06a871);
     -webkit-background-clip: text;
     background-clip: text;
@@ -115,7 +138,7 @@
 }
 
 .about-content p {
-    font-size: 24px;
+    font-size: 21px;
     color: #22568a;
 }
 
@@ -130,20 +153,20 @@
 
 .comm1 {
     position: absolute;
-    top: 0;
-    left: 0;
+    top: 40px;
+    left: 50px;
     width: 60px;
 }
 
 .comm2 {
     position: absolute;
-    bottom: 0;
-    right: 0;
+    bottom: 40px;
+    right: 50px;
     width: 60px;
 }
 
 .choose-content p {
-    font-size: 24px;
+    font-size: 23px;
 }
 
 .chooseus .content {
@@ -161,15 +184,17 @@
     background-color: #def5ec;
 }
 
+
 .abstract .content {
     position: relative;
+    margin-top: -20px;
 }
 
 .abstract .sqline {
     position: absolute;
     right: 0;
     top: 0;
-    width: 230px;
+    width: 250px;
 }
 
 .abstract .card-info p {
@@ -183,6 +208,35 @@
 
 }
 
+.abstract .submission .start {
+    background: linear-gradient(to right, #22568a, #06a871);
+    width: 55%;
+    border-radius: 0px 30px 30px 0px;
+}
+
+.abstract .submission .end {
+    background: linear-gradient(to right, #22568a, #06a871);
+    width: 55%;
+    border-radius: 0px 30px 30px 0px;
+    margin-top: 80px;
+}
+
+.submission .button {
+    color: #22568a;
+    font-weight: 900;
+    border-radius: 30px;
+    background-color: white;
+    float: right;
+    font-size: 24px;
+    margin-right: 100px;
+    border: 2px solid #22568a;
+    box-shadow: 2px 2px 2px 2px rgba(6, 168, 113, 0.6);
+}
+
+.submission .button p {
+    margin-top: 10px;
+}
+
 .scientific {
     background-image: url('/images/back2.png');
     width: 100%;
@@ -192,9 +246,133 @@
 }
 
 .scientific .subhead p {
-    font-size: 20px;
+    font-size: 23px;
     width: 90%;
 }
+
+.register .subhead p {
+    font-size: 23px;
+    width: 90%;
+}
+
+.tabs {
+    display: flex;
+    justify-content: center;
+}
+
+.tab {
+    margin: 0 10px;
+    padding-bottom: 5px;
+    cursor: pointer;
+    font-size: 25px;
+    color: #06a871;
+    font-weight: 700;
+}
+
+.tab.active {
+    border-bottom: 2px solid #06a871;
+    color: #22568a;
+}
+
+
+
+.venue {
+    border-bottom: 8px solid #06a871;
+}
+
+.venue .subhead p {
+    font-size: 23px;
+    width: 90%;
+}
+
+.right-content {
+    background: linear-gradient(to left, #dbfdf0, #ffff);
+}
+
+.left-content {
+    background: linear-gradient(to right, #e2e2e2, #ffff);
+}
+
+.venue .section1 {
+    padding-top: 20px;
+}
+
+.venue .section1 h1 {
+    color: #22568a;
+    font-size: 33px;
+    font-weight: 700;
+}
+
+.venue .section1 h2 {
+    color: #22568a;
+    font-size: 28px;
+}
+
+.venue .section1 p {
+    font-size: 20px;
+}
+
+.venue .section2 {
+    padding-top: 20px;
+}
+
+.venue .section2 h1 {
+    color: #06a871;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.venue .section2 h2 {
+    color: #06a871;
+    font-size: 28px;
+}
+
+.venue .section2 p {
+    font-size: 20px;
+}
+
+.conference {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center
+}
+
+.conference .subhead p {
+    font-size: 23px;
+    width: 90%;
+}
+
+.conference .content-head {
+    width: 90%;
+    border-top: 2px solid #22568a;
+}
+
+.conference .times {
+    width: 20%;
+    line-height: 2.2;
+    font-size: 20px;
+    font-weight: 700;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    padding: 30px;
+
+}
+
+.conference .schedule {
+    width: 75%;
+    border-left: 2px solid #22568a;
+}
+
+.conference .schedule p {
+    background-color: #b0e9d2;
+    border-radius: 25px;
+    padding: 10px;
+    padding-left: 30px;
+}
+
 
 
 
@@ -211,6 +389,8 @@
     padding: 10px;
     color: #22568a;
     font-weight: 700;
+    padding-left: 30px;
+    padding: 16px 30px 16px 30px;
     margin: 0;
 }
 
@@ -248,4 +428,118 @@
 .sponsors .subhead p {
     font-size: 20px;
     width: 90%;
+}
+
+.speakers .subhead p {
+    font-size: 23px;
+}
+
+.card-section .card-info {
+    position: relative;
+}
+
+.card-section {
+    background: linear-gradient(to right, #22568a, #06a871);
+}
+
+.card-section .card-info .share1 {
+    position: absolute;
+    width: 37px;
+    right: 16px;
+    bottom: 8px;
+}
+
+.card-section .card-info .share2 {
+    position: absolute;
+    width: 37px;
+    right: 20px;
+    bottom: 10px;
+
+}
+
+
+.footer {
+    margin-left: -11px !important;
+    background-image: url('/images/bg-grean.png');
+    width: 100%;
+    height: 480px;
+    background-size: cover;
+    background-position: center;
+    padding-left: 70px !important;
+}
+
+.footer .logo-section {
+    border-bottom: 5px solid #06a871;
+    width: 220px;
+    padding-bottom: 20px;
+}
+
+.footer .head {
+    color: white;
+}
+
+.footer .head h1 {
+    color: white;
+    font-size: 25px;
+}
+
+.footer .head h2 {
+    color: white;
+    font-size: 25px;
+    line-height: 0.7;
+}
+
+.footer .content {
+    color: #e2e2e2;
+    padding-top: 16px;
+    font-size: 16px;
+}
+.footer .social img{
+    width: 15%;
+    padding: 10px;
+}
+
+
+.footer .links-head h2 {
+    font-size: 20px;
+    color: white;
+    border-bottom: 5PX solid #06a871;
+    padding-bottom: 20px;
+}
+
+.footer .links a {
+    text-decoration: none;
+    color: #e2e2e2;
+    line-height: 2;
+}
+
+
+.footer .address-head h2 {
+    font-size: 20px;
+    color: white;
+    border-bottom: 5PX solid #06a871;
+    padding-bottom: 20px;
+}
+
+.footer .address {
+    color: #e2e2e2;
+}
+
+.footer .address a {
+    text-decoration: none;
+    color: #e2e2e2;
+}
+.footer .heart-white img{
+   width: 90%;
+   opacity: 0.5;
+}
+.footer .copy{
+    color: white;
+    display: flex;
+    padding-top: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.footer .copy p{
+    font-size: 14px;
 }
