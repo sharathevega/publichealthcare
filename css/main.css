@@ -255,6 +255,7 @@
     width: 90%;
 }
 
+
 .tabs {
     display: flex;
     justify-content: center;
@@ -272,6 +273,280 @@
 .tab.active {
     border-bottom: 2px solid #06a871;
     color: #22568a;
+}
+
+.main-register-card {
+    position: relative;
+}
+
+.back-img {
+    position: absolute;
+    top: 50;
+    left: 0;
+    width: 100%;
+    height: 20%;
+    z-index: -1;
+    overflow: hidden;
+}
+
+.back-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.main-register-card {
+    position: relative;
+    z-index: 1;
+    /* Bring content above the background image */
+}
+
+.register-cards .re-card {
+    width: 78%;
+    position: relative;
+}
+
+.re-card-head {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: rgb(240, 13, 13);
+}
+
+.overlay-content {
+    position: absolute;
+    top: 14%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+}
+
+.overlay-person {
+    position: absolute;
+    top: 27%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: black;
+}
+
+.overlay-person h4 {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.overlay-info {
+    position: absolute;
+    top: 38%;
+    left: 60%;
+    width: 57%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: black;
+}
+
+.overlay-info p {
+    font-size: 12px;
+    color: #06a871;
+}
+
+.overlay-list {
+    position: absolute;
+    top: 60%;
+    list-style: none;
+    left: 55%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: black;
+    text-align: left;
+}
+
+.overlay-list li {
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.overlay-list li i {
+    font-size: 12px;
+    font-weight: bold;
+    padding-right: 3px;
+}
+
+.overlay-button {
+    position: absolute;
+    bottom: -31px;
+    left: 61%;
+    width: 57%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: black;
+}
+
+.overlay-button p {
+    font-size: 18px;
+    color: white;
+    font-weight: 800;
+}
+
+
+
+
+.overlay-content2 {
+    position: absolute;
+    top: 14%;
+    left: 35%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+}
+
+.overlay-person2 {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: black;
+}
+
+.overlay-person2 h4 {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.overlay-info2 {
+    position: absolute;
+    top: 36%;
+    left: 50%;
+    width: 62%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: black;
+}
+
+.overlay-info2 p {
+    font-size: 13px;
+    color: #06a871;
+}
+
+.overlay-list2 {
+    position: absolute;
+    top: 60%;
+    list-style: none;
+    left: 45%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: black;
+    text-align: left;
+}
+
+.overlay-list2 li {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.overlay-list2 li i {
+    font-size: 14px;
+    font-weight: bold;
+    padding-right: 3px;
+}
+
+.overlay-button2 {
+    position: absolute;
+    bottom: -31px;
+    left: 50%;
+    width: 57%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: black;
+}
+
+.overlay-button2 p {
+    font-size: 21px;
+    color: white;
+    font-weight: 800;
+}
+
+.overlay-content3 {
+    position: absolute;
+    top: 14%;
+    left: 28%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+}
+
+.overlay-person3 {
+    position: absolute;
+    top: 25%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: black;
+}
+
+.overlay-person3 h4 {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.overlay-info3 {
+    position: absolute;
+    top: 38%;
+    left: 40%;
+    width: 57%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: black;
+}
+
+.overlay-info3 p {
+    font-size: 12px;
+    color: #06a871;
+}
+
+.overlay-list3 {
+    position: absolute;
+    top: 60%;
+    list-style: none;
+    left: 35%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: black;
+    text-align: left;
+}
+
+.overlay-list3 li {
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.overlay-list3 li i {
+    font-size: 12px;
+    font-weight: bold;
+    padding-right: 3px;
+}
+
+.overlay-button3 {
+    position: absolute;
+    bottom: -31px;
+    left: 39%;
+    width: 57%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: black;
+}
+
+.overlay-button3 p {
+    font-size: 18px;
+    color: white;
+    font-weight: 800;
+}
+
+.register-cards .re-card2 {
+    width: 87%;
+    position: relative;
 }
 
 
